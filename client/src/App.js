@@ -7,7 +7,7 @@ import Login from './components/login'
 
 //Bootstrap Components
 import Button from 'react-bootstrap/Button'
-
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
 export default class App extends React.Component {
   constructor() {
@@ -32,9 +32,18 @@ export default class App extends React.Component {
 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Button variant="primary" onClick={() => this.setState({ modalShow: true })}>
-            Login 
-          </Button>
+          <ButtonToolbar>
+            <Button variant="primary" onClick={() => this.setState({ modalShow: true })}>
+              Login 
+            </Button>
+            <Button variant="primary">
+              Sign Up 
+            </Button>
+            <Button variant="primary">
+              Forgot Password 
+            </Button>
+          </ButtonToolbar>
+        
           <Login
             show={this.state.modalShow}
             onHide={modalClose}
