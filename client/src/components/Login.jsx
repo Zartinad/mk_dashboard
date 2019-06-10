@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
 
-export default class MyVerticallyCenteredModal extends React.Component {
+export default class Login extends React.Component {
     render() {
         return (
             <Modal

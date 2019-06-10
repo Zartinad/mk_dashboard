@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 //Components
-import Login from './components/login'
+import Login from './components/Login'
+import SignUp from './components/Signup'
+import ForgotPass from './components/ForgotPassword'
 
 //Bootstrap Components
 import Button from 'react-bootstrap/Button'
@@ -13,12 +15,17 @@ export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      modalShow: false
+      loginShow: false,
+      signUpShow: false,
+      forgotPassShow: false,
     };
   }
 
   render() {
-    let modalClose = () => this.setState({ modalShow: false });
+    let loginClose = () => this.setState({ loginShow: false });
+    let signUpClose = () => this.setState({ signUpShow: false });
+    let forgotPassClose = () => this.setState({ forgotPassShow: false });
+
 
     return (
       <div className="App">
@@ -33,20 +40,28 @@ export default class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <ButtonToolbar>
-            <Button variant="primary" onClick={() => this.setState({ modalShow: true })}>
+            <Button variant="primary" onClick={() => this.setState({ loginShow: true })}>
               Login 
             </Button>
-            <Button variant="primary">
+            <Button variant="primary" onClick={() => this.setState({ signUpShow: true })}>
               Sign Up 
             </Button>
-            <Button variant="primary">
+            <Button variant="primary" onClick={() => this.setState({ forgotPassShow: true })}>
               Forgot Password 
             </Button>
           </ButtonToolbar>
         
           <Login
-            show={this.state.modalShow}
-            onHide={modalClose}
+            show={this.state.loginShow}
+            onHide={loginClose}
+          />
+          <SignUp
+            show={this.state.signUpShow}
+            onHide={signUpClose}
+          />
+          <ForgotPass
+            show={this.state.forgotPassShow}
+            onHide={forgotPassClose}
           />
         </header>
       </div>
