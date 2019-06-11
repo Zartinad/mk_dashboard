@@ -11,8 +11,8 @@ import "./SignUp.css"
 export default class SignUpPage extends React.Component {
   render() {
     return (
-      <Card className="SignUp">
-        <Form>
+      <Card className="SignUp" >
+        <Form style={{width: "75%"}}>
           <Form.Group controlId="formGroupEmail">
             <Form.Control type="username" placeholder="Username" />
           </Form.Group>
@@ -30,12 +30,13 @@ export default class SignUpPage extends React.Component {
           SignUp
         </Button>
         <Container>
-          <Row >
-            <Col>
-              <Link to="/login">Login</Link>
+          <Row>
+            <Col xs={12} md={4}>
+              <Link to="/login" className="Links">Login</Link>
             </Col>
-            <Col>
-              <Link to="/Forgot">Forgot</Link>
+            <Col xs={0} md ={4}>  </Col>
+            <Col xs={12} md={4}>
+              <Link to="/forgot" className="Links">Forgot</Link>
             </Col>
           </Row>
         </Container>
