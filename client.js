@@ -8,4 +8,6 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(3099);
+const PORT = 3099
+app.listen(PORT);
+console.log("Listening on :" + PORT)
