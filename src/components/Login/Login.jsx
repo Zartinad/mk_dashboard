@@ -10,6 +10,10 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./Login.css"
 
 export default class LoginPage extends React.Component {
+    componentDidMount(){
+        document.title = "Login"
+      }
+
     render() {
         return (
             <Card className="Login">
