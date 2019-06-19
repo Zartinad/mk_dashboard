@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2db2a509.chunk.css",
-    "main.js": "/static/js/main.7dc475c8.chunk.js",
-    "main.js.map": "/static/js/main.7dc475c8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.ece2af4c.chunk.js": "/static/js/2.ece2af4c.chunk.js",
-    "static/js/2.ece2af4c.chunk.js.map": "/static/js/2.ece2af4c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fda8ac806a54bf2ec5b4006816dfec6e.js": "/precache-manifest.fda8ac806a54bf2ec5b4006816dfec6e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.2db2a509.chunk.css.map": "/static/css/main.2db2a509.chunk.css.map"
+    "main.css": "./core-client/mk_dashboard/build/static/css/main.2db2a509.chunk.css",
+    "main.js": "./core-client/mk_dashboard/build/static/js/main.8da54fb9.chunk.js",
+    "main.js.map": "./core-client/mk_dashboard/build/static/js/main.8da54fb9.chunk.js.map",
+    "runtime~main.js": "./core-client/mk_dashboard/build/static/js/runtime~main.7fe29ac3.js",
+    "runtime~main.js.map": "./core-client/mk_dashboard/build/static/js/runtime~main.7fe29ac3.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "./core-client/mk_dashboard/build/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.ece2af4c.chunk.js": "./core-client/mk_dashboard/build/static/js/2.ece2af4c.chunk.js",
+    "static/js/2.ece2af4c.chunk.js.map": "./core-client/mk_dashboard/build/static/js/2.ece2af4c.chunk.js.map",
+    "index.html": "./core-client/mk_dashboard/build/index.html",
+    "precache-manifest.db1197643599c23becd98d78d43ff6b3.js": "./core-client/mk_dashboard/build/precache-manifest.db1197643599c23becd98d78d43ff6b3.js",
+    "service-worker.js": "./core-client/mk_dashboard/build/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "./core-client/mk_dashboard/build/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.2db2a509.chunk.css.map": "./core-client/mk_dashboard/build/static/css/main.2db2a509.chunk.css.map"
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "client2",
   "version": "0.1.0",
+  "homepage": "./core-client/mk_dashboard/build",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
