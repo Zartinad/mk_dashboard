@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/dashboard" >
         <Route exact path="/" component={withRouter(Login)} />
         <Route path="/Login" component={withRouter(Login)} />
         <Route path="/SignUp" component={withRouter(SignUp)} />
